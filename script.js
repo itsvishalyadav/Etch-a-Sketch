@@ -3,7 +3,7 @@ let container = document.querySelector('#container')
 let sqrSide = 40
 let sqrCount = 16
 
-function bulidNew(){
+function bulidNew() {
   container.innerHTML = ''
   buildSketch(sqrCount)
 }
@@ -14,7 +14,7 @@ function enterRows() {
     sqrCount = Number(sqrCount) // Convert to number
   } while (isNaN(sqrCount) || sqrCount < 1 || sqrCount > 100)
   sqrSide = 640 / sqrCount
-  bulidNew();
+  bulidNew()
 }
 
 let crtbtn = document.querySelector('#createbtn')
@@ -35,6 +35,7 @@ function buildSketch(sqrCount) {
     square.classList.add('grid-square')
     square.style.width = `${sqrSide}px`
     square.style.height = `${sqrSide}px`
+    square.style.backgroundColor = 'white'
 
     square.addEventListener('mouseenter', () => {
       square.style.backgroundColor = selcolor // or any color
