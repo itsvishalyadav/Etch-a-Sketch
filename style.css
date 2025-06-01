@@ -7,9 +7,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./assets/stacked-waves-haikei.svg');
-  background-repeat: repeat-y;
-  background-size: cover;
+
 }
 
 #logo {
@@ -60,21 +58,34 @@ select:hover {
 }
 .btns {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
-button,select {
+button,
+select,#darkDiv {
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
-  background-color: #c2185b; /* or try #C2185B */
+  background-color: #c2185b; 
   color: white;
   border: 1px solid #c2185b;
   border-radius: 10px;
   padding: 10px;
 }
-select{
+select {
   padding: 8px;
 }
 button:hover {
   transform: scale(1.2);
   background-color: #ff709d;
+}
+#darkDiv{
+  width: 60px;
+}
+#darkDiv:hover { 
+  transform: scale(1.2);
+  background-color: #ff709d;
+}
+
+input{
+  transform: scale(1.5);
 }
