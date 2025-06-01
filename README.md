@@ -15,7 +15,7 @@ A fun, interactive Etch-a-Sketch-style drawing application built with **HTML**, 
 - 🆕 Create a new grid
 - 💅 Stylish UI with a smooth pink gradient background
 - ⚙️ Easy to customize grid size and color options
-
+- 🌙 Dark Mode Switch for better night-time usability
 ---
 
 ## 🧰 Tech Stack
@@ -33,7 +33,7 @@ etch-a-sketch/
 ├── index.html        # Main HTML file
 ├── style.css         # Styling and layout
 ├── script.js         # Grid creation and interactivity
-├── screenshot.png    # UI screenshot (optional)
+├── assets/           # Images used
 └── README.md         # Project documentation
 ```
 
@@ -79,9 +79,9 @@ Or, use a live server extension (VSCode Live Server recommended).
 
     Add animation and drawing sound effects
 
-    Implement dark mode toggle
 
 ### 🧑‍💻 Author
 
 Vishal Yadav
+
 GitHub: https://github.com/itsvishalyadav
